@@ -1,0 +1,27 @@
+/*進度條*/
+#nft #progress{
+    -webkit-appearance: none;
+    overflow: hidden;
+    width:200px;
+    height:50px;
+    outline: none;
+    background: none;
+    margin: 0 10px 0;
+}
+#nft #progress::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 15px;
+    border-radius: 10px;
+    background: blue;
+  }
+/*進度點*/
+#nft #progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    position: relative;
+    width:30px;
+    height:30px;
+    margin-top: -7px;
+    background: black;
+    border-radius: 100%;
+    cursor: pointer;
+}
